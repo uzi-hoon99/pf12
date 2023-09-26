@@ -1,0 +1,113 @@
+section#middle {
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px 0;
+}
+section#middle div.middleitem {
+  
+  width: 930px;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+section#middle div.middleitem a.itemwrap {
+  
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+section#middle div.middleitem div.info {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  line-height: 1.5;
+  text-align: center;
+  pointer-events: none;
+}
+section#middle div.middleitem div.info h2 {
+  
+  font-size: 35px;
+  font-weight: 700;
+}
+section#middle div.middleitem div.info h2 svg {
+  
+  height: 35px;
+}
+section#middle div.middleitem div.info h3 {
+  
+}
+section#middle div.middleitem div.info p.info1 {
+  
+  font-size: 20px;
+}
+section#middle div.middleitem div.info div.atag {
+  
+  display: flex;
+  gap: 25px;
+  pointer-events: all;
+}
+section#middle div.middleitem div.info div.atag a.atag1 {
+  
+  color: #2997ff;
+}
+section#middle div.middleitem div.info div.atag a.atag1 svg {
+  
+  width: 16px;
+  vertical-align: middle;
+  display: inline;
+}
+section#middle div.middleitem div.info div.atag a.atag2 {
+  
+  color: #2997ff;
+}
+section#middle div.middleitem div.info div.atag a.atag1:hover {
+  text-decoration: underline;
+}
+section#middle div.middleitem div.info div.atag a.atag2:hover {
+  text-decoration: underline;
+}
+section#middle div.middleitem div.info div.atag a.atag2 svg {
+  
+  width: 16px;
+  display: inline;
+  vertical-align: middle;
+}
+section#middle div.middleitem1 div.info h2 {
+  line-height: 0;
+}
+section#middle div.middleitem1 div.info h3 {
+  color: #fe7d30;
+  font-weight: 700;
+  font-size: 14px;
+}
+section#middle div.middleitem5 div.info {
+  color: white;
+}
+
+section#middle div.middleitem1 {
+  background-image: url(../img/middle/1.jpg);
+}
+section#middle div.middleitem2 {
+  background-image: url(../img/middle/2.jpg);
+}
+section#middle div.middleitem3 {
+  background-image: url(../img/middle/3.jpg);
+}
+section#middle div.middleitem4 {
+  background-image: url(../img/middle/4.jpg);
+}
+section#middle div.middleitem5 {
+  background-image: url(../img/middle/5.jpg);
+}
+section#middle div.middleitem6 {
+  background-image: url(../img/middle/6.jpg);
+}

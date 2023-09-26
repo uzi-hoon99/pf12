@@ -1,0 +1,52 @@
+section#footerlast {
+  
+  padding: 10px 0;
+}
+section#footerlast div.wrap {
+  
+  display: flex;
+  flex-direction: column;
+}
+section#footerlast div.wrap p.moreways {
+  
+  line-height: 2;
+  color: rgb(110, 110, 115);
+  font-size: 12px;
+  border-bottom: 1px solid rgb(110, 110, 115);
+}
+section#footerlast div.wrap p.moreways a {
+  color: rgb(0, 102, 204);
+}
+section#footerlast div.wrap div.copy {
+  
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 5px 0;
+}
+section#footerlast div.wrap div.copy p.copyright {
+  
+  color: rgb(110, 110, 115);
+}
+section#footerlast div.wrap div.copy ul {
+  
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+section#footerlast div.wrap div.copy ul li {
+  
+}
+section#footerlast div.wrap div.copy ul li.line {
+  width: 1px;
+  height: 100%;
+  background-color: rgb(66, 66, 69);
+}
+section#footerlast div.wrap div.copy ul li a {
+  
+  color: rgb(66, 66, 69);
+}
+section#footerlast div.wrap a.lang {
+  
+  color: rgb(66, 66, 69);
+}

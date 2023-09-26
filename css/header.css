@@ -1,0 +1,316 @@
+header {
+
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1500;
+  top: 0;
+}
+header div.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+header div.wrap h1 {
+  
+}
+header div.wrap h1 a {
+  
+  display: block;
+}
+header div.wrap h1 a svg {
+  
+  width: 30px;
+  height: 30px;
+  fill: #323233;
+}
+header div.wrap h1 a svg:hover {
+  fill: black;
+}
+header div.wrap ul.gnb-list {
+  
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+header div.wrap ul.gnb-list li.gnb {
+  
+  height: 100%;
+}
+header div.wrap ul.gnb-list li.gnb a.gnb-link {
+  
+  padding: 0 12.5px;
+  display: flex;
+  font-size: 14px;
+  height: 100%;
+  align-items: center;
+  color: #323232;
+}
+header div.wrap ul.gnb-list li.gnb a.gnb-link:hover {
+  color: black;
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap {
+
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 550px;
+  background-color: white;
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin {
+  
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  gap: 100px;
+  padding-top: 50px;
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont {
+  
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont h2 {
+  
+  line-height: 3;
+  font-size: 14px;
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont ul.gnb-inner-list {
+  
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont ul.gnb-inner-list li.gnb-inner {
+  
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont ul.gnb-inner-list li.gnb-inner a.gnb-inner-link {
+  
+  display: block;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 7.5px 0;
+  color: #323232;
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont ul.gnb-inner-list li.gnb-inner a.gnb-inner-link:hover {
+  color: black;
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont ul.gnb-inner-list li.gnb-inner-s {
+  
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont ul.gnb-inner-list li.gnb-inner-s a.gnb-inner-link {
+  
+  padding: 7.5px 0;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #323232;
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont ul.gnb-inner-list li.gnb-inner-s a.gnb-inner-link:hover {
+  color: black;
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont-s {
+  
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont-s h2 {
+  
+  line-height: 3;
+  font-size: 14px;
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont-s ul.gnb-inner-list {
+  
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont-s ul.gnb-inner-list li.gnb-inner {
+  
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont-s ul.gnb-inner-list li.gnb-inner a.gnb-inner-link {
+  
+  font-weight: 500;
+  padding: 7.5px 0;
+  display: block;
+  color: #323232;
+}
+header div.wrap ul.gnb-list li.gnb div.gnb-inner-wrap div.gnb-inner-wrap-margin div.gnb-inner-cont-s ul.gnb-inner-list li.gnb-inner a.gnb-inner-link:hover {
+  color: black;
+}
+header div.wrap ul.gnb-util-list {
+  
+  display: flex;
+  height: 100%;
+}
+header div.wrap ul.gnb-util-list li.gnb-util {
+  
+}
+header div.wrap ul.gnb-util-list li.gnb-util a.gnb-util-link {
+  
+  display: flex;
+  padding: 0 10px;
+  height: 100%;
+  align-items: center;
+}
+header div.wrap ul.gnb-util-list li.gnb-util a.gnb-util-link svg {
+  
+  width: 30px;
+  height: 30px;
+  color: #323232;
+}
+header div.wrap ul.gnb-util-list li.gnb-util a.gnb-util-link:hover svg {
+  color: black;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap {
+  
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 550px;
+  background-color: white;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin {
+  
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  padding-top: 50px;
+  flex-direction: column;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin form.search-wrap {
+  
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin form.search-wrap button.search {
+  
+  width: 5%;
+  position: absolute;
+  left: 0;
+  border: none;
+  background-color: transparent;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin form.search-wrap button.search svg {
+  
+  scale: 0.75;
+  color: #323232;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin form.search-wrap input {
+  
+  width: 100%;
+  padding: 0 75px;
+  box-sizing: border-box;
+  border: none;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 700;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin form.search-wrap button.search-close {
+  
+  width: 5%;
+  position: absolute;
+  right: 0;
+  border: none;
+  background-color: transparent;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin form.search-wrap button.search-close svg {
+  
+  scale: 0.5;
+  fill: #323232;
+  color: #323232;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.quick-search {
+  
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.quick-search h2 {
+  
+  line-height: 3;
+  font-size: 14px;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.quick-search ul.quick-links-list {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.quick-search ul.quick-links-list li.quick-links {
+  
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.quick-search ul.quick-links-list li.quick-links a.quick-links-item {
+  
+  display: flex;
+  padding: 7.5px 0;
+  font-weight: 500;
+  align-items: center;
+  color: #323232;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.quick-search ul.quick-links-list li.quick-links a.quick-links-item:hover {
+  color: black;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.quick-search ul.quick-links-list li.quick-links a.quick-links-item svg {
+  height: 15px;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.pre-order {
+  
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.pre-order h2 {
+  
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 3;
+  color: #323232;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.pre-order p {
+  
+  color: #323232;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.pre-order p a.link {
+  
+  color: #06c;
+  text-decoration: underline;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.your-bag {
+  
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.your-bag h2 {
+  
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 3;
+  color: #323232;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.your-bag p {
+  
+  color: #323232;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.your-bag p a.link {
+  
+  color: #06c;
+  text-decoration: underline;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.profile {
+  
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.profile h2 {
+  
+  line-height: 3;
+  font-size: 14px;
+  color: #323232;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.profile ul.profile-wrap {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.profile ul.profile-wrap li.profile-list {
+  
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.profile ul.profile-wrap li.profile-list a.profile-link {
+  
+  display: flex;
+  align-items: center;
+  padding: 7.5px 0;
+  font-weight: 500;
+  color: #323233;
+}
+header div.wrap ul.gnb-util-list li.gnb-util div.gnb-util-inner-wrap div.gnb-util-inner-wrap-margin div.profile ul.profile-wrap li.profile-list a.profile-link svg {
+  
+  width: 20px;
+  height: 20px;
+  fill: #323233;
+}

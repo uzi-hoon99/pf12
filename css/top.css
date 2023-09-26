@@ -1,0 +1,28 @@
+section#top {
+
+}
+section#top div.wrap {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 3;
+  gap: 5px;
+}
+section#top div.wrap p {
+
+}
+section#top div.wrap a {
+
+  display: flex;
+  align-items: center;
+  color: #06c;
+}
+section#top div.wrap a:hover {
+  text-decoration: underline;
+}
+section#top div.wrap svg {
+    
+  width: 14px;
+}

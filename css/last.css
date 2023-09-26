@@ -1,0 +1,101 @@
+section#last {
+  
+  padding: 10px 0;
+}
+section#last ul.lastwrap {
+  
+}
+section#last ul.lastwrap li.lastlist {
+  
+  height: 703px;
+  background-position: center;
+  width: 1250px;
+  position: relative;
+  opacity: 0.5;
+}
+section#last ul.lastwrap li.lastlist.slick-active {
+  opacity: 1;
+}
+section#last ul.lastwrap li.lastlist a.lastlink {
+  
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+section#last ul.lastwrap li.lastlist div.lastinfo {
+  
+  position: absolute;
+  bottom: 75px;
+  display: flex;
+  left: 75px;
+  align-items: center;
+  gap: 75px;
+  pointer-events: none;
+}
+section#last ul.lastwrap li.lastlist div.lastinfo a.stream {
+  
+  background-color: white;
+  padding: 15px;
+  font-weight: 700;
+  border-radius: 30px;
+  pointer-events: all;
+}
+section#last ul.lastwrap li.lastlist div.lastinfo a.stream svg {
+  
+  width: 16px;
+  display: inline;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+section#last ul.lastwrap li.lastlist div.lastinfo p.typo {
+  
+  font-size: 20px;
+  color: white;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+}
+section#last ul.lastwrap li.lastlist div.lastinfo p.typo span.bold {
+  
+  font-weight: 900;
+}
+section#last ul.lastwrap li.lastlist div.lastinfo p.typo span.dot {
+  
+  font-weight: 700;
+}
+
+section#last ul.lastwrap li.lastlist1 {
+  background-image: url(../img/last/1.jpg);
+}
+section#last ul.lastwrap li.lastlist2 {
+  background-image: url(../img/last/2.jpg);
+}
+section#last ul.lastwrap li.lastlist3 {
+  background-image: url(../img/last/3.jpg);
+}
+section#last ul.lastwrap li.lastlist4 {
+  background-image: url(../img/last/4.jpg);
+}
+section#last ul.lastwrap li.lastlist5 {
+  background-image: url(../img/last/5.jpg);
+}
+section#last ul.lastwrap li.lastlist6 {
+  background-image: url(../img/last/6.jpg);
+}
+section#last ul.lastwrap li.lastlist7 {
+  background-image: url(../img/last/7.jpg);
+}
+section#last ul.lastwrap li.lastlist8 {
+  background-image: url(../img/last/8.jpg);
+}
+section#last ul.lastwrap li.lastlist9 {
+  background-image: url(../img/last/9.jpg);
+}
+section#last ul.lastwrap li.lastlist10 {
+  background-image: url(../img/last/10.jpg);
+}
+
+.slick-slide {
+  margin: 0 10px; // space(여백)/2
+}
+.slick-list {
+  margin: 0 -10px; // space(여백)/-2
+}
